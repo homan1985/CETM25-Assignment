@@ -1,88 +1,39 @@
-# Project Title
+## Case Study of Hotel Industry in Europe
 
-One Paragraph of project description goes here
+A data storytelling dashboard of hotel popularity and guest perception of six European countries. Based on Booking.com dataset downloaded from Kaggle.com.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Download Product Prototype(.twb) from xxx onto your local computer. Double click the icon to open it.
+See deployment for notes on how to deploy the dashboard on Tableau Server.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To install Tableau Desktop or Tableau Server you will need three things: a product key, a installer file for the version you want to install and a frequently used email address that will not expire.
 
-```
-Give examples
-```
+You will need username and password that you recieved when you purchased Tableau, go to [Customer Portal](http://customer.tableau.com/) and get a product key. Installer file can be downloaded from [Product Downloads and Release Notes](http://www.tableau.com/support/esdalt?_ga=2.10247349.1498373291.1568604412-569789675.1557217827).
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Tableau Desktop
+1. Run the installer file and follow the prompts. Click **Install** to begin installation.
+2. After installation process is finished, open Tableau Desktop. This launches the Tableau Registration Form.
+3. Fill out the fields on the registration form and then click **Activate Tableau**.
+4. Enter your product key then click **Activate** in the next page. 
+5. Click **Continue** in the next page to finish the process.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Tableau Server
+1. Run the installer file and follow the prompts. Click **Install** to begin installation.
+2. After installation process is finished, click **Next** to start Tableau Services Manager (TSM).
+3. Sign in TSM with the username and password you used in the setup.
+4. Enter your product key then click **Activate License**.
+5. After registering and server configuration, click **Continue** to launch the final step of setup.
+6. Create a Tableau Server administrator account by specifying username and password. Make sure the password is strong and the credentials are kept secret as administrator account takes complete control of the server.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Sign in to Tableau Server with your username and password used in the setup first. On the **Server** menu, select **Publish Data Source** to publish data source or **Publish Workbook** to publish workbook.
 
-## Built With
+## Contact Us
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+If you had issues in installation or usage, you could send an email to bh34wn@student.sunderland.ac.uk.
